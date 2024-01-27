@@ -38,7 +38,7 @@ int  main()
 {
     system("cls");
 
-    printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+    printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
     printf("----------------------------\n");
 
     if (returnornot)
@@ -77,7 +77,7 @@ int  main()
         break;
     case 3:
         system("cls");
-        printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+        printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
         printf("----------------------------\n");
         printf(cyan "[0] Return to main menu"     resetfont "\n");
         printf(cyan "[1] Persian Calendar"        resetfont "\n");
@@ -224,7 +224,7 @@ void age()
         system("cls");
 
         printf("\n");
-        printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+        printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
         printf("----------------------------\n");
         printf(cyan "[0] Return to main menu" resetfont "\n");
         printf("----------------------------\n");
@@ -515,7 +515,7 @@ void calendar()
 
     system("cls");
 
-        printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+        printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
         printf("----------------------------\n");
         printf(cyan "[0] Return to main menu"     resetfont "\n");
         printf("----------------------------\n");
@@ -533,7 +533,7 @@ void calendar()
             else if (year < 1206 || year > 1498)
             {
                 system("cls");
-                printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+                printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
                 printf("----------------------------\n");
                 printf(cyan "[0] Return to main menu"     resetfont "\n");
                 printf("----------------------------\n");
@@ -556,7 +556,7 @@ void calendar()
         if (month > 12 || month < 1)
         {
             system("cls");
-            printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+            printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
             printf("----------------------------\n");
             printf(cyan "[0] Return to main menu"     resetfont "\n");
             printf("----------------------------\n");
@@ -586,7 +586,7 @@ void calendar()
 
         system("cls");
 
-        printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+        printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
         printf("----------------------------\n");
         printf(cyan "[0] Return to main menu"     resetfont "\n");
         printf("----------------------------\n");
@@ -631,7 +631,7 @@ void Conversion()
     {
         system("cls");
 
-        printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+        printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
         printf("----------------------------\n");
         printf(cyan "[0] Return to main menu" resetfont "\n");
         printf("----------------------------\n");
@@ -820,17 +820,14 @@ void bornWeekDay(int day)
 
 void conversiongregorian()
 {
-    system("cls");
-
-        printf(red "mhyr X ebi project ver. 2.1" resetfont "\n");
+    int wanted;
+    do
+    {
+        system("cls");
+        printf(red "EBi X Big Mahyar project ver. 2.1" resetfont "\n");
         printf("----------------------------\n");
         printf(cyan "[0] Return to main menu" resetfont "\n");
         printf("----------------------------\n");
-
-    int wanted;
-
-    do
-    {
         int thisMonth, thisMonthShamsi, thisYearShamsi, thisDayShamsi, thisYear, thisDay;
 
         printf("Enter Year : ");
